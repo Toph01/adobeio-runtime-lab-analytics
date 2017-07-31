@@ -51,6 +51,17 @@ var languageStrings = {
     }
 };
 
+// Create default handlers
+var newSessionHandlers = {
+    'LaunchRequest': function () {
+        //Skill was launched
+
+        //Say Hello!
+        this.emit(':tell', "Hello NAME");
+    }
+};
+
+
 var main = function (event) {
     console.log('ALEXA Event', event.request.type + '!');
     alexaSDK.registerHandlers(newSessionHandlers);
@@ -79,12 +90,3 @@ var main = function (event) {
         });
 };
 
-// Create default handlers
-var newSessionHandlers = {
-    'LaunchRequest': function () {
-        //Skill was launched
-
-        //Say Hello!
-        this.emit(':tell', "Hello NAME");
-    }
-};

@@ -64,7 +64,6 @@ var newSessionHandlers = {
 
 var main = function (event) {
     console.log('ALEXA Event', event.request.type + '!');
-    alexaSDK.registerHandlers(newSessionHandlers);
 
     API_KEY = event.analytics_api_key;
     /* default parameter for the action */
@@ -81,6 +80,8 @@ var main = function (event) {
                     });
                 alexaSDK.APP_ID = APP_ID;
                 alexaSDK.resources = languageStrings;
+                alexaSDK.registerHandlers(newSessionHandlers);
+
 
                 return alexaSDK.execute();
             } catch (err) {

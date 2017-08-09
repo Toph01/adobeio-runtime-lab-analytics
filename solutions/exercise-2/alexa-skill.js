@@ -11,7 +11,7 @@
  * either express or implied.  See the License for the specific language governing permissions and
  * limitations under the License.
  */
-
+console.log("just checking if this does something.");
 var Alexa = require('alexa-sdk');   //Alexa SDK
 
 var states = {

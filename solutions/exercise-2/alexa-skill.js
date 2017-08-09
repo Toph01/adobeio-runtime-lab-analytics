@@ -237,6 +237,7 @@ function getAllMetricsText() {
 
 var main = function (event) {
     console.log('ALEXA Event', event.request.type + '!');
+    console.log("This is set right after the main function.");
 
     API_KEY = event.analytics_api_key;
     /* default parameter for the action */
@@ -261,4 +262,3 @@ var main = function (event) {
             }
         });
 };
-console.log("just checking if this does something2.");

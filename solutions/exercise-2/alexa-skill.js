@@ -132,7 +132,7 @@ var rsidSelectionHandlers = Alexa.CreateStateHandler(states.STATE_RSID_SELECTION
         var speechOutput = this.t("YOU_ARE_WELCOME");
         this.emit(':tell', speechOutput);
     },
-    'Unhandled': function () {
+/*    'Unhandled': function () {
         //Get a comma separated list of the report suites
         var reportSuites = this.event.session.attributes.reportSuites;
         var reportSuiteList = getReportsSuitesListFromObject(reportSuites);
@@ -141,7 +141,7 @@ var rsidSelectionHandlers = Alexa.CreateStateHandler(states.STATE_RSID_SELECTION
         var speechOutput = this.t("UNKNOWN_COMMAND_RSID_SELECTION", reportSuiteList);
         var reprompt = this.t("UNKNOWN_COMMAND_REPROMPT_RSID_SELECTION", reportSuiteList);
         this.emit(':ask', speechOutput, reprompt);
-    },
+    },*/
     'AMAZON.HelpIntent': function () {
         //Get a comma separated list of the report suites
         var reportSuites = this.event.session.attributes.reportSuites;

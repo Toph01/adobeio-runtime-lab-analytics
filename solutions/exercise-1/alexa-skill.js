@@ -19,7 +19,7 @@ var states = {
     STATE_QUERY: '_STATE_QUERY'
 };
 
-var APP_ID = 'Chris Test;
+var APP_ID = 'Chris Test';
 /* ignored in this demo */
 
 var API_KEY = '';

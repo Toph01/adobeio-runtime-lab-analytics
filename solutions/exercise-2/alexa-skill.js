@@ -261,3 +261,4 @@ var main = function (event) {
             }
         });
 };
+console.log("just checking if this does something2.");

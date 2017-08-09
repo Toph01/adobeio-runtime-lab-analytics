@@ -22,9 +22,9 @@ var states = {
 var APP_ID = null;
 /* ignored in this demo */
 
-var API_KEY = '';
+var API_KEY = 'e062238fbe34735183a5de87b0f1ee2c';
 /* provided */
-var ANALYTICS_COMPANY = '';
+var ANALYTICS_COMPANY = 'Mastercard';
 /* provided */
 
 // Analytics SDK        

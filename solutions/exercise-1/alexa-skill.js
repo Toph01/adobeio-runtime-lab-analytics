@@ -19,7 +19,7 @@ var states = {
     STATE_QUERY: '_STATE_QUERY'
 };
 
-var APP_ID = 'Chris Test';
+var APP_ID = null;
 /* ignored in this demo */
 
 var API_KEY = '';
@@ -57,7 +57,7 @@ var newSessionHandlers = {
         //Skill was launched
 
         //TODO: Say Hello!
-        this.emit(':tell', "Hello NAME");
+        this.emit(':tell', "Hello NAME is. What? My name is.  Who?  My name is wicky wicky Slim Alexa");
     }
 };
 

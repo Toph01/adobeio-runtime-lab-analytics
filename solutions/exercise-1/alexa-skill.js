@@ -19,12 +19,12 @@ var states = {
     STATE_QUERY: '_STATE_QUERY'
 };
 
-var APP_ID = null;
+var APP_ID = 'Chris Test;
 /* ignored in this demo */
 
-var API_KEY = 'e062238fbe34735183a5de87b0f1ee2c';
+var API_KEY = '';
 /* provided */
-var ANALYTICS_COMPANY = 'Mastercard';
+var ANALYTICS_COMPANY = '';
 /* provided */
 
 //Speech strings
